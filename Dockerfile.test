@@ -1,0 +1,4 @@
+FROM oven/bun:1.0.2
+WORKDIR /app
+COPY src .
+CMD [ "bun", "test" ]
